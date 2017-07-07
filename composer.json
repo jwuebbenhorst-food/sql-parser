@@ -21,7 +21,8 @@
     },
     "require-dev": {
         "phpunit/php-code-coverage": "*",
-        "phpunit/phpunit": "~4.8 || ~5.7"
+        "phpunit/phpunit": "~4.8 || ~5.7",
+        "friendsofphp/php-cs-fixer": "^2.3"
     },
     "conflict": {
         "phpmyadmin/motranslator": "<3.0"

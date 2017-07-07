@@ -304,10 +304,11 @@ abstract class Context
      * Checks if the given string is the beginning of a whitespace.
      *
      * @param string $str string to be checked
+     * @param mixed  $end
      *
      * @return int the appropriate flag for the comment type
      */
-    public static function isComment($str, $end=false)
+    public static function isComment($str, $end = false)
     {
         $len = strlen($str);
         if ($str[0] === '#') {
